@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, Helvetica,"san serif";
+    color: darkblue;
+    background-color: paleturquoise;
+    padding: 25px;
+    font-size: 120%;
+}
+
+div#content {
+    padding: 50px;
+    background-color: white;
+    border: outset 10px #333333;
+    border-color: yellow;
+    height: 125vh;
+}
+
+h1, h2, h3 {
+    font-family: Arial, Helvetica, "san serif";
+    font-style: italic;
+}
+
+
+img {
+    float: right;
+    align-items: bottom;
+    height: 300px;
+}
+
+figcaption{
+  align-items: bottom;
+  float: right;
+  align-items: center;
+}
+
+
+a {
+    font-family:  Arial, Helvetica, "san serif";
+    text-decoration: none;
+    color: blue;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style:solid;
+    border: dashed 10px darkblue;
+    color: yellow;
+}
