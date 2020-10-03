@@ -1,0 +1,44 @@
+body {
+    font-family: "amatic SC";
+    color: darkblue;
+    background-color: paleturquoise;
+    padding: 25px;
+    font-size: 150%;
+}
+
+div#content {
+    padding: 50px;
+    background-color: white;
+    border: outset 10px #333333;
+    border-color: yellow;
+    height: 125vh;
+}
+
+h1, h2, h3 {
+    font-family: "amatic SC";
+    font-style: italic;
+}
+
+
+img {
+    float: right;
+    width: 550px;
+    height: 738;
+}
+
+figcaption{
+  float: right;
+align-items:baseline;
+}
+
+a {
+    font-family:  Arial, Helvetica, "san serif";
+    text-decoration: none;
+    color: darkblue;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style:solid;
+    border: dashed 10px darkblue;
+    color: yellow;
+}

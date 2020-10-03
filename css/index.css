@@ -1,0 +1,21 @@
+ h1{
+   text-align: center;
+ }
+
+
+
+body {
+    font-family: Arial, Helvetica,"san serif";
+    color: darkblue;
+    background-color: paleturquoise;
+    padding: 25px;
+    font-size: 120%;
+}
+
+div#text {
+    padding: 50px;
+    background-color: white;
+    border: outset 10px #333333;
+    border-color: yellow;
+    height: 80vh;
+}
