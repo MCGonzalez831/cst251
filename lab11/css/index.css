@@ -1,0 +1,62 @@
+body {
+    font-family: "Poppins";
+    color: black;
+    background-color: paleturquoise;
+    padding: 25px;
+    font-size: 15x;
+}
+
+div#content {
+    padding: 50px;
+    background-color: #FFEBE5;
+    border: outset 10px #333333;
+    border-color: yellow;
+    height: 125vh;
+}
+
+img {
+  float:  right;
+}
+
+h1, h2, h3 {
+    font-family: "Press Start 2P";
+    font-style: italic;
+    text-align: left;
+    margin: left;
+    color: black;
+    font-size: 20px;
+}
+
+div#img {
+    padding: 50px 10px 10px;
+    background-color: white;
+    border: outset 10px #333333;
+    border-color: yellow;
+    height: 125vh;
+}
+
+img {
+  float: right;
+  width: 400px;
+  height: 400px;
+  margin-right: auto;
+}
+
+
+figcaption{
+  float: right;
+  font-family: "Press Start 2P";
+  font-size: 24px
+}
+
+a {
+    font-family:  Arial, Helvetica, "san serif";
+    text-decoration: none;
+    color: darkblue;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style:solid;
+    border: dashed 10px darkblue;
+    color: yellow;
+}
