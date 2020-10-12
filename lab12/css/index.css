@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, Helvetica,"san serif";
+    color: white;
+    background-color:black;
+    padding: 25px;
+    font-size: 120%;
+    background-image: url(../img/spook.png);
+}
+
+div#content {
+    padding: 50px;
+    background-color: Orange;
+    border: outset 10px #333333;
+    border-color: purple;
+    height: 125vh;
+}
+
+h1, h2, h3 {
+    font-family: Arial, Helvetica, "san serif";
+    font-style: italic;
+}
+
+
+div img {
+    float: right;
+    border: solid 1px purple;
+    clear: right;
+    width: 300px;
+    height: 300px;
+}
+
+figcaption{
+  align-items: bottom;
+  float: right;
+  align-items: center;
+}
+
+
+a {
+    font-family:  Arial, Helvetica, "san serif";
+    text-decoration: none;
+    color: purple;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style:solid;
+    border: dashed 10px darkblue;
+    color: yellow;
+}

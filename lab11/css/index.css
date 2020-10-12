@@ -1,7 +1,7 @@
 body {
     font-family: "Poppins";
     color: black;
-    background-color: paleturquoise;
+    background-image: url(../img/nook.jpg);
     padding: 25px;
     font-size: 15x;
 }
@@ -49,14 +49,24 @@ figcaption{
   font-size: 24px
 }
 
+#sidebar {
+  display: block;
+  position: absolute;
+  width: 25%;
+  min-width: 300px;
+  border: solid 3px red;
+  background-color: pink;
+  font-family: "Poppins";
+}
+
 a {
-    font-family:  Arial, Helvetica, "san serif";
-    text-decoration: none;
-    color: darkblue;
+    font-family: "Press Start 2P";
+    text-decoration: overline underline;
+    color: darkred;
 }
 a:hover {
     text-decoration: underline;
-    text-decoration-style:solid;
-    border: dashed 10px darkblue;
-    color: yellow;
+    text-decoration-style: dotted;
+    border: outset 10px yellow;
+    color: blue;
 }
