@@ -7,11 +7,13 @@ body {
 }
 
 div#content {
-    padding: 50px;
+    display: inline-block;
+    width: 50%;
+    margin: 20px;
+    padding: 10px;
     background-color: #FFEBE5;
     border: outset 10px #333333;
     border-color: yellow;
-    height: 125vh;
 }
 
 img {
@@ -28,11 +30,13 @@ h1, h2, h3 {
 }
 
 div#img {
-    padding: 50px 10px 10px;
-    background-color: white;
-    border: outset 10px #333333;
-    border-color: yellow;
-    height: 125vh;
+  display: inline-block;
+  width: 50%;
+  margin: 20px;
+  padding: 10px;
+  background-color: #FFEBE5;
+  border: outset 10px #333333;
+  border-color: yellow;
 }
 
 img {
@@ -50,8 +54,7 @@ figcaption{
 }
 
 #sidebar {
-  display: block;
-  position: absolute;
+  float: right;
   width: 25%;
   min-width: 300px;
   border: solid 3px red;
@@ -60,9 +63,13 @@ figcaption{
 }
 
 a {
+    position: sticky;
+    top: 0px;
+    border: solid 5px;
     font-family: "Press Start 2P";
     text-decoration: overline underline;
     color: darkred;
+    background-color: pink;
 }
 a:hover {
     text-decoration: underline;
