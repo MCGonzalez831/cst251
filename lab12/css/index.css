@@ -5,14 +5,17 @@ body {
     padding: 25px;
     font-size: 120%;
     background-image: url(../img/spook.png);
+
 }
 
 div#content {
-    padding: 50px;
+    width: 80%;
+    margin: 10px;
+    padding: 70px;
     background-color: Orange;
     border: outset 10px #333333;
     border-color: purple;
-    height: 125vh;
+    height: 270vh;
 }
 
 h1, h2, h3 {
@@ -32,6 +35,43 @@ figcaption{
   align-items: bottom;
   float: right;
   align-items: center;
+}
+
+.center-div{
+  border: outset 3px purple;
+   width: 30%;
+   border-radius: solid 3px black;
+   height: 250px;
+}
+
+.center-div img{
+  width: 150px;
+  height: auto;
+}
+
+#floated *{
+  float: right;
+  clear:both;
+}
+
+#center-horz{
+  text-align: center;
+}
+
+#center-img{
+ margin: 0pc;
+
+}
+
+#center-both{
+position: relative;
+}
+
+#center-both img {
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 
