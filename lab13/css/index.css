@@ -1,0 +1,41 @@
+body{
+
+background-color: black;
+font size: 125px;
+color: white;
+
+}
+
+div#content{
+  border: outset 10px gold;
+  background-color: navy;
+  margin: 20px;
+  text-indent: 5px
+}
+
+iframe#fake, .screenshot{
+    width: 800px;
+    height: 500px;
+    resize: both;
+    overflow: hidden;
+    border: none;
+    margin: 20px;
+}
+
+.screenshot img{
+ width: 100%;
+ max-width: 100%;
+}
+
+
+a {
+    font-family:  Arial, Helvetica, "san serif";
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style:solid;
+    border: dashed 10px white;
+    color: lightcoral;
+}
