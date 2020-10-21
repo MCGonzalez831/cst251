@@ -1,0 +1,54 @@
+body {
+  font-family:"Roboto";
+  background-image: url(../img/sky.jpg);
+  color: black;
+  padding: 25px;
+  font-size: 15px;
+  margin: 5px;
+}
+
+.content{
+  width: 80%;
+  margin: 10px;
+  padding: 70px;
+  border: solid 10px lightgrey;
+  color: black;
+  background-color: white;
+}
+
+h1, h2, h3 {
+    font-style: "DM Sans";
+    text-align: left;
+    margin: left;
+    color: black;
+    font-size: 25px;
+}
+
+iframe#fake, .screenshot{
+    border: solid 10px lightgrey;
+    width: 800px;
+    height: 500px;
+    resize: both;
+    overflow: hidden;
+    border: none;
+    margin: 20px;
+}
+
+.icon {
+position: absolute;
+top: 50px;
+right: 50px;
+
+}
+
+a {
+    font-family: "Work Sans";
+    text-decoration: none;
+    color: blue;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style:solid;
+    border: dashed 10px gold;
+    color: black;
+}

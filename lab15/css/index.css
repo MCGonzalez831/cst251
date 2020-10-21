@@ -1,0 +1,89 @@
+body{
+  background-color: deepskyblue;
+  color: white;
+  font-size: 20px;
+}
+
+h1, h2, h3{
+  font-family: "Nunito";
+  color: blue;
+  font-size: 28px;
+}
+
+.main{
+  box-shadow: 3px 3px 5px grey;
+  margin: 20px;
+  width: auto;
+  height: auto;
+  background-color: pink;
+  color: white;
+  border: solid 15px gold;
+  font-family: "Nanum Gothic";
+  background: linear-gradient(to bottom, #99ff99 0%, #ffcccc 100%)
+}
+
+.text{
+  text-shadow: -1px 0 black,
+   0 1px black,
+   1px 0 black,
+   0 -1px black;
+  font-family: "Nanum Gothic";
+  box-shadow: 3px 3px 5px grey;
+  margin: 20px;
+  width: auto;
+  height: 300px;
+  border: solid 15px gold;
+  background: linear-gradient(to bottom, #99ccff 0%, #ffffff 100%)
+}
+
+.rcorners2{
+  border-radius: 25px;
+  font-family: "Nanum Gothic";
+  box-shadow: 3px 3px 5px grey;
+  margin: 20px;
+  width: auto;
+  height: 530px;
+  border: solid 15px gold;
+  background: linear-gradient(to bottom, #99ccff 0%, #ffcccc 100%)
+}
+
+.town{
+  border: solid 3px gold;
+  margin: 20px;
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+  transform: scale(300px, 300px);
+}
+
+.fjords img{
+  box-shadow: 3px 3px 5px grey
+  border: hidden;
+  margin: 20px;
+  width: 500px;
+  height: 300px;
+  filter: blur(5px);
+}
+
+figcaption{
+  font-family: "Nunito";
+  color: white;
+}
+
+img:hover{
+  margin: 20px;
+  filter: blur(0);
+  border: solid 5px gold;
+}
+
+a {
+    font-family: "Nanum Gothic";
+    text-decoration: none;
+    color: blue;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style:solid;
+    border: solid 10px white;
+    color: black;
+}

@@ -1,9 +1,8 @@
 body{
-
+font-family: "Work Sans";
 background-color: black;
 font size: 125px;
 color: white;
-
 }
 
 div#content{
@@ -27,9 +26,14 @@ iframe#fake, .screenshot{
  max-width: 100%;
 }
 
+h1, h2, h3 {
+    font-family: "Work Sans";
+    font-style: italic;
+}
+
 
 a {
-    font-family:  Arial, Helvetica, "san serif";
+    font-family: "Work Sans";
     text-decoration: none;
     color: white;
 }
