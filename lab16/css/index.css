@@ -1,0 +1,81 @@
+body{
+  color: white;
+  font-size: 25px;
+
+  color:white;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-image: url(../img/pump.jpg);
+}
+
+main{
+  border: solid 5px orange;
+  margin: 20px;
+  background-color: black;
+}
+
+div#back{
+  color: white;
+  border: solid 5px purple;
+  font-size: 15px;
+  margin: 20px;
+  width: 510px;
+  height: 400px;
+  background-image: url(../img/ghost.png);
+  background-position: left;
+  background-repeat:repeat;
+}
+
+div #trans{
+  border: solid 5px purple;
+  font-size: 15px;
+  margin: 20px;
+  width: 100px;
+  height: 100px;
+  transition: width 2s;
+  background-color: orange;
+}
+
+div#trans:hover{
+width: 510px;
+}
+
+div#animation{
+  border: solid 5px purple;
+  background-color: orange;
+  margin: 20px;
+  width: 510px;
+  height: 400px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+
+div#newspaper{
+  column-count: 3;
+
+
+}
+
+h1, h2, h3 {
+    font-family: "arial";
+
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style:solid;
+    border: solid 10px white;
+    color: orange;
+}
