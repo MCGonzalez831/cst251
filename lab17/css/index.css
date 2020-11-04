@@ -1,0 +1,80 @@
+body{
+  border: solid 10px orange;
+  margin: 10px;
+  color: purple;
+  background-color: black;
+  background-image: url(../img/cute.jpg);
+
+
+
+}
+
+main{
+  background-color: black;
+}
+
+.content{
+  background-color: black;
+}
+
+header{
+  text-align: center;
+  padding: 15px;
+  background-color: black;
+}
+
+.paper{
+  margin: 15px;
+  border: solid 5px orange;
+  width: 400px;
+
+}
+
+img{
+  width: 400px;
+  height: 500px;
+}
+
+.aside{
+  float:right;
+  width: 35%;
+  height: 182px;
+  background-color: purple;
+  padding: 20px;
+
+}
+
+aside{
+ margin-right: 100px;
+ margin-top: 20px;
+ color: orange;
+}
+
+p{
+  margin: 15px;
+}
+
+
+.bottom{
+  color: white;
+  margin: 10px;
+  border: solid 5px orange;
+  background-color: midnightblue;
+}
+
+footer{
+  margin: 5px;
+}
+
+a {
+    margin: 5px;
+    text-decoration: none;
+    color: orange;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style:solid;
+    border: dashed 10px purple;
+    color: orange;
+    background-color: black;
+}

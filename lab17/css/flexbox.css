@@ -1,0 +1,51 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+  background-color: aqua;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: darkblue;
+}
+
+section{
+  display: -webkit-flex;
+  display: flex;
+  color: black;
+}
+
+nav{
+  -webkit-felx: 1;
+  -ms-flex: 1;
+  flex: 1;
+  color: white;
+  background: mediumblue;
+  padding: 20px;
+}
+
+nav ul{
+
+  list-style-type: none;
+  padding: 0;
+}
+
+article{
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: white;
+  padding: 10px;
+}
+
+footer{
+  padding: 20px;
+  color: white;
+  background-color: midnightblue;
+  text-align: center;
+}

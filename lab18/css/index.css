@@ -1,0 +1,51 @@
+body{
+  background-color: deepskyblue;
+  font-size: 20px;
+}
+
+h1, h2, h3{
+  color: blue;
+  font-size: 30px;
+  margin: 15px;
+}
+
+main {
+  padding: 20px;
+  margin: 20px;
+  width: 500px;
+  height: 800px;
+  background-color: white;
+  color: midnightblue;
+  border: solid 10px black;
+}
+
+article{
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: white;
+  padding: 10px;
+}
+
+
+.left, .right {
+ float: left;
+ width:20%;
+ border: 10px black;
+ background-color: white;
+}
+
+.main {
+ float:left;
+ width:60%;
+}
+
+@media screen and(max-width:800px) {
+ .left, .main, .right {
+ width:100%;
+ }
+}
+
+display: -webkit-flex;
+display: flex;
+color: black;

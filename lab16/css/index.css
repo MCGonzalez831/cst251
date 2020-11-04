@@ -21,10 +21,9 @@ div#back{
   margin: 20px;
   width: 510px;
   height: 400px;
-  background-image: url(../img/ghost.png);
-  background-position: left;
+  background-image: url(../img/ghost.png), url(../img/pump.png);
+  background-position: left top, right bottom;
   background-repeat:repeat;
-}
 
 div #trans{
   border: solid 5px purple;
