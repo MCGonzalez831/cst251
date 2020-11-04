@@ -57,7 +57,11 @@ footer{
   color: white;
 }
 
-
+img{
+  width: 400px;
+  height:400px;
+  float: right;
+}
 
 @media (max-width: 600px) {
   section{
