@@ -21,16 +21,16 @@ section{
 }
 
 nav{
+  color: white;
   -webkit-felx: 1;
   -ms-flex: 1;
   flex: 1;
-  color: white;
   background: mediumblue;
   padding: 20px;
 }
 
 nav ul{
-
+  color: white;
   list-style-type: none;
   padding: 0;
 }
@@ -48,4 +48,11 @@ footer{
   color: white;
   background-color: midnightblue;
   text-align: center;
+}
+
+@media (max-width: 600px) {
+  section{
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
 }
