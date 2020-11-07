@@ -1,0 +1,21 @@
+body{
+  background-color: lightblue;
+
+}
+
+
+.row{
+  border: solid 1px blue;
+}
+
+.col{
+  border: solid 1px red;
+}
+
+footer{
+  text-align: center;
+  color: white;
+  top: 20vh;
+  padding: 30px;
+  background-color: #007bff;
+}

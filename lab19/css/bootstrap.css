@@ -1,0 +1,9 @@
+
+.row{
+  border: solid 1px blue;
+}
+
+.col{
+  border: solid 1px yellow;
+  min-width: 250px;
+}
